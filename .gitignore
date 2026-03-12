@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+.env
+predata/              # 历史参考数据，非运行必需
+*.db
+*.db-wal
+*.db-shm
+data/*.json
+data/*.db
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+test_*.db
+*.pyc
